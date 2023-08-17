@@ -15,3 +15,7 @@
 
    Es importante saber como se encuentran nuestros commit, para ello podemos usar el comando: `git log`
 9. Al estar seguro de todos los cambios que deseamos hacer, debemos proceder a unir los cambios de la nueva rama a principal, para ello podemos usar el comando: `git merge`
+
+10. una vez realizado el push, nos podemos cambiar a la rama main ( `git checkout main` ) y traer los nuevos cambios del repositorio ( `git pull` ). 
+11. El comando `git branch` nos permite revisar las diferentes ramas que tenemos. 
+12. Para eliminar una rama específica, podemos usar el comando: `git branch -D "nombreDeLaRama"`
