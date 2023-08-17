@@ -14,4 +14,6 @@
 8. Una vez realizados los cambios deseados en la nueva rama, guardamos los cambios (**punto 4**) realizamos el commit **(punto 5)**
 
    Es importante saber como se encuentran nuestros commit, para ello podemos usar el comando: `git log`
-9. Al estar seguro de todos los cambios que deseamos hacer, debemos proceder a unir los cambios de la nueva rama a principal, para ello podemos usar el comando: `git merge`
+9. Cabe resaltar que al querer hacer push, si la rama que estamos usando no existe en GitHub, debemos usar el comando: `git push --set-upstream origin "nombreDeLaRama"`
+10. Finalmente, cuando estemos completamente seguros de los cambios que hemos generado, y si queremos que estos se encuentren en la rama principal podemos usar el comando `git merge` con el fin de generar la pull request
+11. Una vez realizado el merge, procedemos a eliminar la rama.
