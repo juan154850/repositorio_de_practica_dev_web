@@ -20,3 +20,4 @@
 11. El comando `git branch` nos permite revisar las diferentes ramas que tenemos. 
 12. Para eliminar una rama específica, podemos usar el comando: `git branch -D "nombreDeLaRama"`
 13. Si estamos en una rama y queremos pasar los cambios directamente desde la rama x, a la rama principal usamos el comando: `git merge "nombreDeLaRamaDeLaCualQueremosTraerLosCambios"`
+14. Descartar un commit: `git revert "idDelCommit"`
